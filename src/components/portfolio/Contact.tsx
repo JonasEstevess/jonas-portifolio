@@ -57,7 +57,7 @@ export const Contact = () => {
                 href="https://wa.me/5511974517730"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-background/40 border border-border/50 text-foreground font-medium hover:border-primary/40 hover:shadow-glow transition-all hover:-translate-y-0.5"
+                className="inline-flex items-center gap-2 px-7 py-4 rounded-full bg-gradient-primary text-primary-foreground font-medium text-lg hover:shadow-glow transition-all hover:-translate-y-0.5"
               >
                 <WhatsAppIcon className="w-4 h-4" />
                 Salvar contato no WhatsApp
