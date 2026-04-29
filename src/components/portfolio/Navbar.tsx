@@ -21,7 +21,7 @@ export const Navbar = () => {
     >
       <div className="container flex items-center justify-between h-16">
         <a href="#home" className="font-display font-bold text-lg tracking-tight">
-          <span className="text-gradient">J</span>
+          <span className="text-gradient">JonasPort</span>
           <span className="text-primary">.</span>
         </a>
         <nav className="hidden md:flex items-center gap-8 ml-auto">
