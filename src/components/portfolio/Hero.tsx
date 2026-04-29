@@ -29,7 +29,7 @@ export const Hero = () => {
             alt="Jonas Esteves"
             width={224}
             height={224}
-            className="relative w-56 h-56 md:w-60 md:h-60 rounded-full object-cover object-[50%_8%] border-2 border-primary/40 shadow-glow"
+            className="relative w-56 h-56 md:w-60 md:h-60 rounded-full object-cover object-center border-2 border-primary/40 shadow-glow"
           />
         </motion.div>
 
@@ -97,7 +97,7 @@ export const Hero = () => {
           <a
             href="/curriculo-jonas-esteves.pdf"
             download
-            className="px-6 py-3 rounded-full border border-border bg-card/50 text-foreground font-medium hover:border-primary/50 hover:text-primary-glow transition-all hover:-translate-y-0.5"
+            className="px-6 py-3 rounded-full bg-gradient-primary text-primary-foreground font-medium hover:shadow-glow transition-all hover:-translate-y-0.5"
           >
             Baixar CV
           </a>
