@@ -96,6 +96,22 @@ const projects = [
     repoUrl: "https://github.com/JonasEstevess/Jogo-do-n-secreto",
     accent: "from-fuchsia-500/20 to-pink-500/20",
   },
+  {
+    title: "CodeDaily — Desafios Diários",
+    description:
+      "Plataforma interativa para programadores em formação, com cadastro e login de usuários, perguntas diárias gerenciadas por administradores, sistema de pontuação por acertos e ranking competitivo. Promove o aprendizado contínuo através de desafios renovados todos os dias.",
+    tags: ["Python", "JSON", "CLI", "Autenticação"],
+    repoUrl: "https://github.com/JonasEstevess/Sistema-desafios",
+    accent: "from-green-500/20 to-emerald-500/20",
+  },
+  {
+    title: "Screen Match Filmes",
+    description:
+      "Aplicação Java focada em prática de fundamentos da linguagem através de um sistema simples de filmes: cadastro de informações, cálculo de média de avaliações, classificação por nota e leitura de dados pelo terminal usando estruturas condicionais e laços de repetição.",
+    tags: ["Java", "POO", "IntelliJ IDEA"],
+    repoUrl: "https://github.com/JonasEstevess/screen-match-movies",
+    accent: "from-orange-500/20 to-red-500/20",
+  },
 ];
 
 export const Projects = () => {
