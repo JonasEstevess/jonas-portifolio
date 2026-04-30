@@ -10,7 +10,15 @@ const projects = [
       "Trabalho de Conclusão de Curso desenvolvido no UNASP. O Cubo Multissensorial é um brinquedo comunicador em formato de cubo, criado para apoiar o desenvolvimento pessoal e auxiliar pessoas com transtornos mentais. O dispositivo utiliza Arduino e integra luzes, sons e interações táteis, proporcionando uma experiência sensorial com fins educativos e terapêuticos.",
     extra:
       "Além do hardware, foi desenvolvido um site de apresentação do projeto — com objetivos, impacto social e documentação técnica — incluindo integração com banco de dados e estruturação completa das páginas web.",
-    tags: ["C++", "Arduino", "IoT", "Hardware", "React", "HTML/CSS", "Banco de Dados"],
+    tags: [
+      "C++",
+      "Arduino",
+      "IoT",
+      "Hardware",
+      "React",
+      "HTML/CSS",
+      "Banco de Dados",
+    ],
     badge: "🏆 2º lugar entre 25+ projetos",
     liveUrl: "https://tcc-react-eosin.vercel.app/",
     liveLabel: "Site do projeto",
@@ -27,6 +35,22 @@ const projects = [
     liveLabel: "Ver site",
     repoUrl: "https://github.com/Augusto-Valerio/Passa-a-Bola",
     accent: "from-pink-500/20 to-rose-500/20",
+  },
+  {
+    title: "CodeDaily — Desafios Diários",
+    description:
+      "Plataforma interativa para programadores em formação, com cadastro e login de usuários, perguntas diárias gerenciadas por administradores, sistema de pontuação por acertos e ranking competitivo. Promove o aprendizado contínuo através de desafios renovados todos os dias.",
+    tags: ["Python", "JSON", "CLI", "Autenticação"],
+    repoUrl: "https://github.com/JonasEstevess/Sistema-desafios",
+    accent: "from-green-500/20 to-emerald-500/20",
+  },
+  {
+    title: "Screen Match Filmes",
+    description:
+      "Aplicação Java focada em prática de fundamentos da linguagem através de um sistema simples de filmes: cadastro de informações, cálculo de média de avaliações, classificação por nota e leitura de dados pelo terminal usando estruturas condicionais e laços de repetição.",
+    tags: ["Java", "POO", "IntelliJ IDEA"],
+    repoUrl: "https://github.com/JonasEstevess/screen-match-movies",
+    accent: "from-orange-500/20 to-red-500/20",
   },
   {
     title: "Photo Portfolio",
@@ -53,9 +77,11 @@ const projects = [
     description:
       "Catálogo de produtos no formato de loja de games, com layout moderno e organização por categorias. Projeto focado em estrutura HTML semântica e estilização avançada com CSS.",
     tags: ["HTML", "CSS", "JavaScript"],
-    liveUrl: "https://augusto-valerio.github.io/GameStore-Catalogo-de-produtos/",
+    liveUrl:
+      "https://augusto-valerio.github.io/GameStore-Catalogo-de-produtos/",
     liveLabel: "Ver site",
-    repoUrl: "https://github.com/Augusto-Valerio/GameStore-Catalogo-de-produtos",
+    repoUrl:
+      "https://github.com/Augusto-Valerio/GameStore-Catalogo-de-produtos",
     accent: "from-violet-500/20 to-purple-500/20",
   },
   {
@@ -96,22 +122,6 @@ const projects = [
     repoUrl: "https://github.com/JonasEstevess/Jogo-do-n-secreto",
     accent: "from-fuchsia-500/20 to-pink-500/20",
   },
-  {
-    title: "CodeDaily — Desafios Diários",
-    description:
-      "Plataforma interativa para programadores em formação, com cadastro e login de usuários, perguntas diárias gerenciadas por administradores, sistema de pontuação por acertos e ranking competitivo. Promove o aprendizado contínuo através de desafios renovados todos os dias.",
-    tags: ["Python", "JSON", "CLI", "Autenticação"],
-    repoUrl: "https://github.com/JonasEstevess/Sistema-desafios",
-    accent: "from-green-500/20 to-emerald-500/20",
-  },
-  {
-    title: "Screen Match Filmes",
-    description:
-      "Aplicação Java focada em prática de fundamentos da linguagem através de um sistema simples de filmes: cadastro de informações, cálculo de média de avaliações, classificação por nota e leitura de dados pelo terminal usando estruturas condicionais e laços de repetição.",
-    tags: ["Java", "POO", "IntelliJ IDEA"],
-    repoUrl: "https://github.com/JonasEstevess/screen-match-movies",
-    accent: "from-orange-500/20 to-red-500/20",
-  },
 ];
 
 export const Projects = () => {
@@ -127,7 +137,9 @@ export const Projects = () => {
           transition={{ duration: 0.6 }}
           className="mb-16 text-center"
         >
-          <span className="text-sm font-medium text-primary-glow tracking-widest uppercase">Trabalhos selecionados</span>
+          <span className="text-sm font-medium text-primary-glow tracking-widest uppercase">
+            Trabalhos selecionados
+          </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-3">
             Projetos <span className="text-gradient">em destaque</span>
           </h2>
@@ -143,11 +155,15 @@ export const Projects = () => {
               transition={{ duration: 0.6, delay: i * 0.1 }}
               className="group relative overflow-hidden rounded-3xl bg-gradient-card border border-border/50 backdrop-blur-sm hover:border-primary/40 transition-all duration-500"
             >
-              <div className={`absolute inset-0 bg-gradient-to-br ${project.accent} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
+              <div
+                className={`absolute inset-0 bg-gradient-to-br ${project.accent} opacity-0 group-hover:opacity-100 transition-opacity duration-500`}
+              />
               <div className="relative p-8 md:p-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
                 <div className="flex-1">
                   <div className="flex items-center gap-3 mb-3">
-                    <span className="text-xs text-muted-foreground font-mono">0{i + 1}</span>
+                    <span className="text-xs text-muted-foreground font-mono">
+                      0{i + 1}
+                    </span>
                     <div className="h-px flex-1 bg-border max-w-[40px]" />
                     {project.badge && (
                       <span className="text-xs px-2 py-1 rounded-full bg-primary/15 text-primary-glow border border-primary/30">
@@ -159,11 +175,17 @@ export const Projects = () => {
                     {project.title}
                   </h3>
                   {project.period && (
-                    <p className="text-xs text-muted-foreground/80 font-mono mb-3">{project.period}</p>
+                    <p className="text-xs text-muted-foreground/80 font-mono mb-3">
+                      {project.period}
+                    </p>
                   )}
-                  <p className="text-muted-foreground mb-3 max-w-2xl">{project.description}</p>
+                  <p className="text-muted-foreground mb-3 max-w-2xl">
+                    {project.description}
+                  </p>
                   {project.extra && (
-                    <p className="text-muted-foreground mb-4 max-w-2xl">{project.extra}</p>
+                    <p className="text-muted-foreground mb-4 max-w-2xl">
+                      {project.extra}
+                    </p>
                   )}
                   <div className="flex flex-wrap gap-2">
                     {project.tags.map((tag) => (
