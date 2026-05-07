@@ -117,7 +117,7 @@ const projects = [
     description:
       "Jogo interativo onde o usuário tenta adivinhar um número secreto sorteado pelo sistema. Projeto focado em lógica de programação e manipulação do DOM.",
     tags: ["JavaScript", "HTML", "CSS"],
-    liveUrl: "https://jogo-delta-two-26.vercel.app/",
+    liveUrl: "https://secret-number.vercel.app/",
     liveLabel: "Ver site",
     repoUrl: "https://github.com/JonasEstevess/Jogo-do-n-secreto",
     accent: "from-fuchsia-500/20 to-pink-500/20",
