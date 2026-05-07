@@ -47,6 +47,16 @@ const projects = [
     accent: "from-rose-500/20 to-red-500/20",
   },
   {
+    title: "Jogo do Número Secreto",
+    description:
+      "Jogo interativo onde o usuário tenta adivinhar um número secreto sorteado pelo sistema. Projeto focado em lógica de programação e manipulação do DOM.",
+    tags: ["JavaScript", "HTML", "CSS"],
+    liveUrl: "https://secret-number.vercel.app/",
+    liveLabel: "Ver site",
+    repoUrl: "https://github.com/JonasEstevess/Jogo-do-n-secreto",
+    accent: "from-fuchsia-500/20 to-pink-500/20",
+  },
+  {
     title: "CodeDaily — Desafios Diários",
     description:
       "Plataforma interativa para programadores em formação, com cadastro e login de usuários, perguntas diárias gerenciadas por administradores, sistema de pontuação por acertos e ranking competitivo. Promove o aprendizado contínuo através de desafios renovados todos os dias.",
@@ -72,16 +82,7 @@ const projects = [
     repoUrl: "https://github.com/Augusto-Valerio/Cadastro-jogadoras-CRUD",
     accent: "from-emerald-500/20 to-teal-500/20",
   },
-  {
-    title: "Photo Portfolio",
-    description:
-      "Portfólio fotográfico desenvolvido em equipe, com galeria responsiva e layout pensado para destacar as imagens com elegância e fluidez.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    liveUrl: "https://marirsil.github.io/Photo_portfolio/",
-    liveLabel: "Ver site",
-    repoUrl: "https://github.com/Marirsil/Photo_portfolio",
-    accent: "from-sky-500/20 to-blue-500/20",
-  },
+ 
   {
     title: "GameStore — Catálogo de Produtos",
     description:
@@ -112,15 +113,15 @@ const projects = [
     repoUrl: "https://github.com/JonasEstevess/carros",
     accent: "from-cyan-500/20 to-blue-500/20",
   },
-  {
-    title: "Jogo do Número Secreto",
+   {
+    title: "Photo Portfolio",
     description:
-      "Jogo interativo onde o usuário tenta adivinhar um número secreto sorteado pelo sistema. Projeto focado em lógica de programação e manipulação do DOM.",
-    tags: ["JavaScript", "HTML", "CSS"],
-    liveUrl: "https://secret-number.vercel.app/",
+      "Portfólio fotográfico desenvolvido em equipe, com galeria responsiva e layout pensado para destacar as imagens com elegância e fluidez.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    liveUrl: "https://marirsil.github.io/Photo_portfolio/",
     liveLabel: "Ver site",
-    repoUrl: "https://github.com/JonasEstevess/Jogo-do-n-secreto",
-    accent: "from-fuchsia-500/20 to-pink-500/20",
+    repoUrl: "https://github.com/Marirsil/Photo_portfolio",
+    accent: "from-sky-500/20 to-blue-500/20",
   },
 ];
 
