@@ -36,6 +36,16 @@ const projects = [
     repoUrl: "https://github.com/Augusto-Valerio/Passa-a-Bola",
     accent: "from-pink-500/20 to-rose-500/20",
   },
+   {
+    title: "Clone Airbnb",
+    description:
+      "Clone da interface do Airbnb desenvolvido como exercício de front-end, replicando layout, componentes e responsividade do site original.",
+    tags: ["React", "JavaScript", "HTML/CSS"],
+    liveUrl: "https://airbnb-clone-cp4.vercel.app/",
+    liveLabel: "Ver site",
+    repoUrl: "https://github.com/Augusto-Valerio/Airbnb-Clone",
+    accent: "from-rose-500/20 to-red-500/20",
+  },
   {
     title: "CodeDaily — Desafios Diários",
     description:
@@ -45,12 +55,22 @@ const projects = [
     accent: "from-green-500/20 to-emerald-500/20",
   },
   {
-    title: "Screen Match Filmes",
+    title: "Screen Match Movies",
     description:
       "Aplicação Java focada em prática de fundamentos da linguagem através de um sistema simples de filmes: cadastro de informações, cálculo de média de avaliações, classificação por nota e leitura de dados pelo terminal usando estruturas condicionais e laços de repetição.",
     tags: ["Java", "POO", "IntelliJ IDEA"],
     repoUrl: "https://github.com/JonasEstevess/screen-match-movies",
     accent: "from-orange-500/20 to-red-500/20",
+  },
+   {
+    title: "Cadastro de Jogadoras — CRUD",
+    description:
+      "Aplicação CRUD completa para cadastro, edição, listagem e remoção de jogadoras. Projeto focado em manipulação de dados no front-end e lógica de programação.",
+    tags: ["JavaScript", "HTML", "CSS", "CRUD"],
+    liveUrl: "https://augusto-valerio.github.io/Cadastro-jogadoras-CRUD/",
+    liveLabel: "Ver site",
+    repoUrl: "https://github.com/Augusto-Valerio/Cadastro-jogadoras-CRUD",
+    accent: "from-emerald-500/20 to-teal-500/20",
   },
   {
     title: "Photo Portfolio",
@@ -63,16 +83,6 @@ const projects = [
     accent: "from-sky-500/20 to-blue-500/20",
   },
   {
-    title: "Clone Airbnb",
-    description:
-      "Clone da interface do Airbnb desenvolvido como exercício de front-end, replicando layout, componentes e responsividade do site original.",
-    tags: ["React", "JavaScript", "HTML/CSS"],
-    liveUrl: "https://airbnb-clone-cp4.vercel.app/",
-    liveLabel: "Ver site",
-    repoUrl: "https://github.com/Augusto-Valerio/Airbnb-Clone",
-    accent: "from-rose-500/20 to-red-500/20",
-  },
-  {
     title: "GameStore — Catálogo de Produtos",
     description:
       "Catálogo de produtos no formato de loja de games, com layout moderno e organização por categorias. Projeto focado em estrutura HTML semântica e estilização avançada com CSS.",
@@ -83,16 +93,6 @@ const projects = [
     repoUrl:
       "https://github.com/Augusto-Valerio/GameStore-Catalogo-de-produtos",
     accent: "from-violet-500/20 to-purple-500/20",
-  },
-  {
-    title: "Cadastro de Jogadoras — CRUD",
-    description:
-      "Aplicação CRUD completa para cadastro, edição, listagem e remoção de jogadoras. Projeto focado em manipulação de dados no front-end e lógica de programação.",
-    tags: ["JavaScript", "HTML", "CSS", "CRUD"],
-    liveUrl: "https://augusto-valerio.github.io/Cadastro-jogadoras-CRUD/",
-    liveLabel: "Ver site",
-    repoUrl: "https://github.com/Augusto-Valerio/Cadastro-jogadoras-CRUD",
-    accent: "from-emerald-500/20 to-teal-500/20",
   },
   {
     title: "Auto Escola",
