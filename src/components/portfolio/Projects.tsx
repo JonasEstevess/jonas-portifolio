@@ -4,6 +4,27 @@ import { useState } from "react";
 
 const projects = [
   {
+  title: "Super Mario Galaxy",
+  description:
+    "Landing page inspirada no universo de Super Mario Galaxy, desenvolvida com foco em experiência visual imersiva, animações modernas e design responsivo. O projeto apresenta personagens icônicos, vídeos interativos e efeitos espaciais que recriam a atmosfera do jogo da Nintendo de forma dinâmica e envolvente.",
+  extra:
+    "Além da interface visual, o projeto conta com animações em scroll, transições suaves, organização profissional de código e otimização de performance, proporcionando uma navegação fluida tanto em desktop quanto em dispositivos móveis.",
+  tags: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Responsividade",
+    "UI/UX",
+    "Animações",
+    "Front-end",
+  ],
+  badge: "🌌 Experiência visual inspirada em games",
+  liveUrl: "https://super-mario-galaxymovie.vercel.app/",
+  liveLabel: "Visualizar projeto",
+  repoUrl: "https://github.com/JonasEstevess/SuperMarioGalaxy.git",
+  accent: "from-blue-500/20 to-indigo-500/20",
+},
+  {
     title: "TCC — Cubo Multissensorial",
     period: "jan 2024 – out 2024 • UNASP",
     description:
